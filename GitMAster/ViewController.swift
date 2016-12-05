@@ -23,11 +23,11 @@ class ViewController: UIViewController {
    @IBAction func whatsUpButton(_ sender: Any) {
       
       var num = feeling.count
-     // var ranNum = arc4random_uniform(UInt16(num))
-      label.text = "fuck "
-      whasUpTap.alpha = 0
+      var ranNum = Int(arc4random_uniform(UInt32(num)))
+      label.text = feeling[ranNum]
+   
       
-      // bug fix commentes  
+      // bug fix commentes  k
       
    }
    
