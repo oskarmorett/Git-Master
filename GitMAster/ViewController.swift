@@ -28,7 +28,7 @@ class ViewController: UIViewController {
    
       
       // bug fix commentes  k
-      
+      //// fuvvv
    }
    
    
