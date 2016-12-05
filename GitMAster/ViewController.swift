@@ -27,6 +27,8 @@ class ViewController: UIViewController {
       label.text = "fuck "
       whasUpTap.alpha = 0
       
+      // bug fix commentes  
+      
    }
    
    
